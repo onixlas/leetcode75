@@ -1,5 +1,5 @@
 import pytest
-from solution import Solution
+from array_string.merge_strings_alternately.solution import Solution
 
 @pytest.mark.parametrize("word1, word2, expected", [
     ("abc", "pqr", "apbqcr"),
