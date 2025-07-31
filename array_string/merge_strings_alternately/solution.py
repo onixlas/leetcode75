@@ -8,4 +8,4 @@ class Solution:
             if index < len(word2):
                 result.append(word2[index])
 
-        return ''.join(result)
+        return "".join(result)
