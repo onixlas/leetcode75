@@ -1,5 +1,5 @@
 import pytest
-from array_string.greatest_common_divisor_of_strings.solution import Solution
+from src.array_string.greatest_common_divisor_of_strings.solution import Solution
 
 
 @pytest.mark.parametrize(

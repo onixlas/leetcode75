@@ -1,5 +1,5 @@
 import pytest
-from array_string.reverse_vowels_of_a_string.solution import Solution
+from src.array_string.reverse_vowels_of_a_string.solution import Solution
 
 
 @pytest.mark.parametrize(

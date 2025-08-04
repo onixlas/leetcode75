@@ -1,5 +1,5 @@
 import pytest
-from array_string.can_place_flowers.solution import Solution
+from src.array_string.can_place_flowers.solution import Solution
 
 
 @pytest.mark.parametrize(

@@ -1,5 +1,5 @@
 import pytest
-from two_pointers.move_zeroes.solution import Solution
+from src.two_pointers.move_zeroes.solution import Solution
 
 
 @pytest.mark.parametrize(

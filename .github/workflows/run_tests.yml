@@ -37,4 +37,4 @@ jobs:
         uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
-          junit_files: junit_report.xml
+          files: junit_report.xml

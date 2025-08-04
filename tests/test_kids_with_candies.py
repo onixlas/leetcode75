@@ -1,5 +1,5 @@
 import pytest
-from array_string.kids_with_the_greatest_number_of_candies.solution import Solution
+from src.array_string.kids_with_the_greatest_number_of_candies.solution import Solution
 
 
 @pytest.mark.parametrize(

@@ -1,5 +1,5 @@
 import pytest
-from array_string.merge_strings_alternately.solution import Solution
+from src.array_string.merge_strings_alternately.solution import Solution
 
 
 @pytest.mark.parametrize(
