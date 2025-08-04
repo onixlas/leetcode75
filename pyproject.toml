@@ -1,10 +1,14 @@
 [project]
 name = "leetcode75"
 version = "0.1.0"
-description = "Add your description here"
+description = "LeetCode top 75 interview questions"
 requires-python = ">=3.13"
-dependencies = [
-    "pre-commit==4.2.0",
+dependencies = []
+[project.optional-dependencies]
+test = [
     "pytest==8.4.1",
     "pytest-cov==6.2.1",
+]
+dev = [
+    "pre-commit==4.2.0",
 ]
