@@ -8,5 +8,5 @@ class Solution:
 
         return (
             sorted(word1_counter.values()) == sorted(word2_counter.values())
-            and word2_counter.keys() == word2_counter.keys()
+            and word1_counter.keys() == word2_counter.keys()
         )
