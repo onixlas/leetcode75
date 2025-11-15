@@ -10,8 +10,3 @@ class Solution:
             sorted(word1_counter.values()) == sorted(word2_counter.values())
             and word2_counter.keys() == word2_counter.keys()
         )
-
-
-print(Solution().closeStrings(word1="abc", word2="bca"))
-print(Solution().closeStrings(word1="a", word2="aa"))
-print(Solution().closeStrings(word1="cabbba", word2="abbccc"))
